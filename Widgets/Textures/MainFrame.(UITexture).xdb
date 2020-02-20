@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<UITexture>
+  <mipsNumber>1</mipsNumber>
+  <type>DXT5</type>
+  <width>512</width>
+  <height>512</height>
+  <realWidth>386</realWidth>
+  <realHeight>325</realHeight>
+  <binaryFileSize>17771</binaryFileSize>
+  <binaryFile href="MainFrame.(UITexture).bin" />
+</UITexture>

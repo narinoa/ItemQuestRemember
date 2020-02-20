@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+	<Name>InfoPanel</Name>
+	<Children>
+		<Item href="ItemPanel.(WidgetPanel).xdb" />
+		<Item href="ButtonCornerCross.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+		<Item href="HeaderText.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+		<Item href="Container.(WidgetScrollableContainer).xdb#xpointer(/WidgetScrollableContainer)" />
+	</Children>
+	<BackLayer href="Textures/MainFrame.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_CENTER</Align>
+			<Size>600</Size>
+			<Pos>150</Pos>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_CENTER</Align>
+			<Size>350</Size>
+		</Y>
+	</Placement>
+	<TransparentInput>false</TransparentInput>
+	<clipContent>false</clipContent>
+</WidgetPanel>

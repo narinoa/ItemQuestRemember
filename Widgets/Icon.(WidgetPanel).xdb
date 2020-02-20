@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+  <Name>Icon</Name>
+  <Children>
+  </Children>
+  <BackLayer href="Textures/Icon.(WidgetLayerSimpleTexture).xdb" />
+  <FrontLayer href="" />
+  <Placement>
+    <X>
+	  <Size>32</Size>
+      <Pos>0</Pos>
+    </X>
+    <Y>
+		<Size>32</Size>
+      <Pos>0</Pos>
+    </Y>
+  </Placement>
+  <TransparentInput>true</TransparentInput>
+  <PickChildrenOnly>false</PickChildrenOnly>
+  <clipContent>false</clipContent>
+  <Visible>false</Visible>
+</WidgetPanel>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetButton>
+	<Name>CheckBox</Name>
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Size>32</Size>
+			<Pos>0</Pos>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Size>32</Size>
+			<Pos>0</Pos>
+		</Y>
+	</Placement>
+	<IgnoreDblClick>true</IgnoreDblClick>
+	<TextTag>mode_label</TextTag>
+	<Variants>
+		<Item>
+			<LayerHighlight href="MsgBoxCheckBoxHollowHighlighted.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+			<PushedOffset x="-2" y="2" />
+			<StateNormal>
+				<LayerMain href="MsgBoxCheckBoxHollowNormal.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+			</StateNormal>
+			<StatePushed>
+				<LayerMain href="MsgBoxCheckBoxHollowPressed.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+			</StatePushed>
+			<ReactionOnUp>true</ReactionOnUp>
+			<Reaction>checkbox</Reaction>
+		</Item>
+		<Item>
+			<LayerHighlight href="MsgBoxCheckBoxCheckedHighlighted.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+			<PushedOffset x="-2" y="2" />
+			<StateNormal>
+				<LayerMain href="MsgBoxCheckBoxCheckedNormal.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+			</StateNormal>
+			<StatePushed>
+				<LayerMain href="MsgBoxCheckBoxCheckedPressed.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+			</StatePushed>
+			<ReactionOnUp>true</ReactionOnUp>
+			<Reaction>checkbox</Reaction>
+		</Item>
+	</Variants>
+	<Visible>false</Visible>
+</WidgetButton>

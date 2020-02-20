@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<UIRelatedTextures>
+	<Items>
+		<Item>
+			<name>Quest</name>
+			<textureItem href="Icons/QUEST.(UISingleTexture).xdb#xpointer(/UISingleTexture)" />
+		</Item>
+		<Item>
+			<name>UsedItem</name>
+			<textureItem href="Icons/ITEM.(UISingleTexture).xdb#xpointer(/UISingleTexture)" />
+		</Item>
+	</Items>
+</UIRelatedTextures>

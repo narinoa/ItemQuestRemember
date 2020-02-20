@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<UISingleTexture>
+	<singleTexture href="ITEM.(UITexture).xdb#xpointer(/UITexture)" />
+	<permanentCache>0</permanentCache>
+	<sourceFile href="ITEM.tga" />
+	<sourceFileCRC>527689530</sourceFileCRC>
+</UISingleTexture>

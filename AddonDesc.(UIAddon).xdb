@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIAddon>
+  <Name>ItemQuestsRemember</Name>
+  <AutoStart>true</AutoStart>
+  <ScriptFileRefs>
+	<Item href="/Mods/SampleCommon/SampleAddonBase.lua"/>
+    <Item href="Scripts/LibDnD.lua"/>
+    <Item href="config.txt"/>
+    <Item href="Scripts/Localization.lua"/>
+    <Item href="Scripts/mainscript.lua"/>
+  </ScriptFileRefs>
+    <MainFormId>Main</MainFormId>
+	<Forms>
+		<Item>
+			<Id>Main</Id>
+			<Form href="Widgets/MainForm.(WidgetForm).xdb#xpointer(/WidgetForm)"/>
+		</Item>
+	</Forms>
+	<textures href="Widgets/Icons.(UIRelatedTextures).xdb"/>
+   <localizedNameFileRef href="name.txt"/><localizedDescFileRef href="desc.txt"/>
+</UIAddon>
